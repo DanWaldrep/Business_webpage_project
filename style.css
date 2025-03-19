@@ -84,6 +84,17 @@ a {
     align-items: flex-start;
 
 }
+.intro-button{
+    font-family: "roboto", serif;
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    width:200px;
+    height: 50px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    
+}
 
 .info-header{
     font-size: 48px;
@@ -102,7 +113,61 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
- 
-    
+
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+.icon{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;
+    width:250px;
+    height: 343px;
+    margin:50px;
+    font-size: 18px;
+    text-align: center;
+    color:#e5e7eb;
+    border: 3px solid rgba(88, 88, 88, 0.555);
+    background-color: #3882f6;
+    padding: 3px;
+
+}
+
+.icon-img{
+    display: flex;
+   width: 200px;
+   height:200px;
+   margin:10px;
+   border:3px solid rgba(88, 88, 88, 0.5);
+   border-radius: 15px;
+     
+
+}
+
+.middle-title{
+    display: flex;
+    align-self: center;
+    justify-self: flex-start;
+    flex-wrap: nowrap;
+   
+}
+
+.inspiring-quote{
+    display: flex;
 }
