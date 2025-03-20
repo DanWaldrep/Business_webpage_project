@@ -4,6 +4,7 @@ body {
     display: flex;
     font-family:"Roboto", serif;
     flex-direction: column;
+    margin: 0px;
     
 
 }
@@ -168,6 +169,97 @@ a {
    
 }
 
+
+
 .inspiring-quote{
+    display:flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    align-items: center;
+    
+}
+
+.quote{
+    display:flex;
+    background-color: #e5e7eb;
+    text-align: center  ;
+    font-size:36px; 
+    font-weight: light;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.author{
+    display:flex;
+    background-color: #e5e7eb;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.final-thoughts{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
     display: flex;
+    margin-left:200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.final-left-header{
+    display: flex;
+    font-size: 36px;
+    margin:0;
+}
+
+.final-left-body{
+    display:flex;
+    margin: 0;
+}
+
+.final-button{
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    max-height: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f9faf8;
+    display: flex;
+    justify-self: flex-start;
+    align-self: center;
+    
+   
+}
+
+.final-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 880px;
+    flex-wrap: wrap;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
 }
